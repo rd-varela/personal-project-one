@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div id="logo"><a href="../index.html">Alercé</a></div>
+        <nav id="navMenu">
+            <ul>
+                <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contacto">
+            <div id="contactoTitle">
+                <h1>Contactanos:</h1>
+            </div>
+            <div id="contactoForm">
+                <form action="form.php" method="post">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" placeholder="Juan Perez" class="formularioContactoDatos">
+                        <div>&nbsp</div>
+                    <p>
+                        <label for="email">E-Mail:</label>
+                        <input type="text" placeholder="ejemplo@ejemplo.com.ar" class="formularioContactoDatos">
+                    </p>
+                    <div>&nbsp</div>
+                    <select name="servicio">
+                        <option value="servicioComp">Servicio Completo</option>
+                        <option value="servicioRetiro">Servicio Retiro</option>
+                        <option value="servicioFeliz">Servicio Final Feliz</option>
+                    </select>
+                    <div>&nbsp</div>
+                    <p>
+                        Mensaje:
+                    </p>
+                    <p>
+                        <textarea name="" id="" cols="35" rows="12" placeholder="Escribí tu consulta acá"></textarea>
+                    </p>
+                    <div>&nbsp</div>
+                    <p>
+                        <input type="submit" value="Enviar">
+                    </p>
+                </form>
+            </div>
+            <div id="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31253.73933369691!2d-58.79903252231448!3d-34.57520576216378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc97da33bc21e3%3A0xd47a453ebbfb47a5!2sEl%20Campito!5e0!3m2!1sen!2sar!4v1710116965889!5m2!1sen!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
